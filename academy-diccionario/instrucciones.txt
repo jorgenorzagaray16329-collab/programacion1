@@ -1,0 +1,62 @@
+main.py  (menus, e import)
+__init__.py
+modelos/
+    |_>__init__.py
+    |_>alumno.py  (agregar, dar baja, mostrarlista)
+    |_>curso.py (agregar, mostrar)
+
+
+
+
+
+
+
+
+
+cursos={
+    "Programación I":{
+        "Instructor": {
+            "nombre": "Jorge Norzagaray",
+            "titulo": "Ingeniero en software",
+            "edad": 36
+        },
+        "aula": 922,
+        "Alumnos": {
+            "188847":{
+                "nombre": "Aldo Alfonso Avila Alvarez",
+                "edad": 18,
+                "semestre": 1,
+                "carrera": "Ingenieria en software"
+            },
+             "188848":{
+                "nombre": "Arian Avila Alvarez",
+                "edad": 19,
+                "semestre": 2,
+                "carrera": "Ingenieria en software"
+            }
+        }
+     },
+     "Programación II":{
+        "Instructor": {
+            "nombre": "Arturo Saiza",
+            "titulo": "Ingeniero en software",
+            "edad": 36
+        },
+        "aula": 921,
+        "Alumnos": {
+            "188847":{
+                "nombre": "Aldo Alfonso Avila Alvarez",
+                "edad": 18,
+                "semestre": 1,
+                "carrera": "Ingenieria en software"
+            },
+             "188848":{
+                "nombre": "Arian Avila Alvarez",
+                "edad": 19,
+                "semestre": 2,
+                "carrera": "Ingenieria en software"
+            }
+        }
+     }
+}
+

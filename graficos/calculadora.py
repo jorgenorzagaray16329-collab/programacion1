@@ -74,7 +74,7 @@ for row in range(5): #0
             else:
                 boton.grid(row=row, column=column, padx=1, pady=5)
 
-        acumulador+=1
+        acumulador+=1#Comentario de lopez
 
 
 

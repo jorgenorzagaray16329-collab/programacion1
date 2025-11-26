@@ -59,3 +59,7 @@ df["Critic_Score_100"] = df["Critic_Score"] * 10
 
 print("\n--- Tabla transformada (Con nuevas Columnas)")
 print(df)
+
+#Agrupacion por genre y ventas por millon 
+#genre_sales = df.groupby("Genre")["Units_Sold_Millions"]
+ #           .sum().sort_values(ascending=False)

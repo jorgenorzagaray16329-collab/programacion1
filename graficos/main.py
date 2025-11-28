@@ -97,6 +97,8 @@ def salir():
 
 #Cargar la fuentes.
 cargar_fuente_memoria("./fuentes/Font Awesome 7 Brands-Regular-400.otf")
+cargar_fuente_memoria("./fuentes/Font Awesome 7 Free-Regular-400.otf")
+cargar_fuente_memoria("./fuentes/Font Awesome 7 Free-Solid-900.otf")
 
 #Inicializar pygame
 pygame.init()

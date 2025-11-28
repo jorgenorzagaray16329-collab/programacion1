@@ -87,9 +87,9 @@ def detener():
     estado = "stop"
 
 def cambiar_volumen(valor):
-    return "volumen"
     #El volumnen va de 0 a 1 
-    pygame.mixer.music.set_volume(float(valor)/100))
+    pygame.mixer.music.set_volume(float(valor)/100)
+    return "volumen"
 
 def salir():
     root.destroy()
